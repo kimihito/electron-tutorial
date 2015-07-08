@@ -1,0 +1,21 @@
+{
+  "name": "electron-tutorial",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kimihito/electron-tutorial",
+  "authors": [
+    "kimihito <tatsurotamashiro@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.2",
+    "marked": "~0.3.3"
+  }
+}
