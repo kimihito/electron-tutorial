@@ -2,7 +2,8 @@
 
 var remote = require('remote');
 var fileUtil = remote.require('./lib/fileUtil');
-var baseDir = process.cwd();
+var matched = location.search.match(/baseDir=([^&]*)/);
+var baseDir = matched && decodeURIComponent(matched[1]);
 
 var ngModule = angular.module('readUs', []);
 
